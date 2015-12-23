@@ -10,8 +10,8 @@
       }
    }
 @media (max-width: 768px) {
-     #miniCarousel .carousel-inner {
-      height: 320px;
+     #miniCarousel{
+      display: none;
     }
  }
 .carousel-inner {
@@ -28,4 +28,7 @@
 #contact{
 	padding-bottom: 50px;
 	background-color: #CCCCCC;
+}
+#contact .return{
+	align-self: center;
 }
