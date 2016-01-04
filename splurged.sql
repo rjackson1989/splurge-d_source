@@ -18,6 +18,7 @@ userID int,
 title varchar(80),
 description varchar(140),
 post text,
+postDate datetime,
 PRIMARY KEY(artID),
 CONSTRAINT FK_articles FOREIGN KEY(userID) REFERENCES authors(userID));
 
